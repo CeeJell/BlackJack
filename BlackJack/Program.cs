@@ -20,6 +20,7 @@ namespace BlackJack
 
                 Console.WriteLine($"Dealern har {game.Dealer.LastDrawnCard}");
                 
+                // Christer kommenterar
 
                 while (game.Status != GameStatus.BlackJack)
                 {
