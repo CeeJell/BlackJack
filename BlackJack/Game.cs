@@ -11,7 +11,7 @@ namespace BlackJack
         public Player Player = new Player();
         public Player Dealer = new Player();
         public Deck Deck = new Deck(1);
-        public GameStatus Status;
+        public GameStatus Status = GameStatus.Playing;
 
         public Game()
         {
